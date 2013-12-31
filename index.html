@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <!--
 	Miniport 2.5 by HTML5 UP
 	html5up.net | @n33co
@@ -14,6 +14,42 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
+        <script>
+  
+    $(document).ready(function(){
+
+        $('#contact-form').validate(
+        {
+            rules: {
+                name: {
+                    minlength: 2,
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    minlength: 2,
+                    required: true
+                },
+                subject:{
+                    required: true
+                }
+            },
+            highlight: function(element) {
+                $(element).closest('.control-group').removeClass('success').addClass('error');
+            },
+            success: function(element) {
+             //   element
+              //  .text('OK!').addClass('valid')
+               // .closest('.control-group').removeClass('error').addClass('success');
+            }
+        });
+    }); // end document.ready
+    </script>
+
+        
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -168,7 +204,8 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
+								<form method="post" id="contact-form" action="/website/Default.aspx">
+                                    <fieldset>
 									<div>
 										<div class="row half">
 											<div class="6u">
@@ -191,10 +228,11 @@
 										<div class="row">
 											<div class="12u">
 												<a href="#" class="button form-button-submit">Send Message</a>
-												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+												
 											</div>
 										</div>
 									</div>
+                                    </fieldset>
 								</form>
 							</div>
 						</div>
@@ -236,6 +274,10 @@
 				</article>
 			</div>
 
+        <!-- jQuery -->
+        <script src="/website/js/jquery.min.js"></script>
 
+        <!-- Validate Plugin -->
+        <script src="/website/js/jquery.validate.min.js"></script>
 	</body>
 </html>
