@@ -27,6 +27,11 @@ label.error {
   margin-top: 2px;
 }
 
+title {
+
+	text-align: left
+}
+
 h1{ 
    font-family: 'Alex Brush'; 
    font-weight: normal; 
@@ -631,7 +636,7 @@ h1{
 		.fa-facebook-square:before{content:"\f082"}
 		.fa-camera-retro:before{content:"\f083"}
 		.fa-key:before{content:"\f084"}
-		.fa-gears:before,.fa-cogs:before{content:"\f085"}
+		.fa-gears:before,.fa-cogs:before{content:"\f085";color:#B0B0B0 }
 		.fa-comments:before{content:"\f086"}
 		.fa-thumbs-o-up:before{content:"\f087"}
 		.fa-thumbs-o-down:before{content:"\f088"}
@@ -743,9 +748,9 @@ h1{
 		.fa-angle-up:before{content:"\f106"}
 		.fa-angle-down:before{content:"\f107"}
 		.fa-desktop:before{content:"\f108"}
-		.fa-laptop:before{content:"\f109"}
+		.fa-laptop:before{content:"\f109" ; color:#B0B0B0  }
 		.fa-tablet:before{content:"\f10a"}
-		.fa-mobile-phone:before,.fa-mobile:before{content:"\f10b"}
+		.fa-mobile-phone:before,.fa-mobile:before{content:"\f10b" ; color:#B0B0B0 }
 		.fa-circle-o:before{content:"\f10c"}
 		.fa-quote-left:before{content:"\f10d"}
 		.fa-quote-right:before{content:"\f10e"}
