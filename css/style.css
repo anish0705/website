@@ -23,8 +23,14 @@ label.error {
   font-weight: bold;
   color: #C0C0C0  ;
   padding: 2px 8px;
-  display: none
+  display: none;
   margin-top: 2px;
+}
+
+h1{ 
+   font-family: 'Alex Brush'; 
+   font-weight: normal; 
+   font-style: normal; 
 }
 
 	*
