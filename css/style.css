@@ -1,6 +1,10 @@
 ﻿@charset 'UTF-8';
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@font-face { font-family: Samarkan;
+src: url("http://www.syrel.org/fonts/SAMARKA0.eot"); 
+}
+@font-face {font-family:"Redressed";src:url("font/Redressed.eot?") format("eot"),url("font/Redressed.woff") format("woff"),url("font/Redressed.ttf") format("truetype"),url("font/Redressed.svg#Redressed") format("svg");font-weight:normal;font-style:normal;}
 
 /*
 	Miniport 2.5 by HTML5 UP
@@ -23,8 +27,29 @@ label.error {
   font-weight: bold;
   color: #C0C0C0  ;
   padding: 2px 8px;
-  display: none
+  display: none;
   margin-top: 2px;
+}
+
+title {
+
+	text-align: left
+}
+
+h1{ 
+   font-family: 'Samarkan'; 
+   
+   font-style: normal; 
+   font-size:70px;
+}
+
+h3{
+	font-family: 'Papyrus';
+}
+
+#aboutus
+{
+	font-family: 'Redressed';
 }
 
 	*
@@ -222,6 +247,7 @@ label.error {
 		.image img
 		{
 			display: block;
+
 			width: 100%;
 		}
 
@@ -229,6 +255,7 @@ label.error {
 	{
 		display: block;
 		width: 100%;
+		height: 100%;
 		margin: 0 0 2em 0;
 	}
 	
@@ -625,7 +652,7 @@ label.error {
 		.fa-facebook-square:before{content:"\f082"}
 		.fa-camera-retro:before{content:"\f083"}
 		.fa-key:before{content:"\f084"}
-		.fa-gears:before,.fa-cogs:before{content:"\f085"}
+		.fa-gears:before,.fa-cogs:before{content:"\f085";color:#B0B0B0 }
 		.fa-comments:before{content:"\f086"}
 		.fa-thumbs-o-up:before{content:"\f087"}
 		.fa-thumbs-o-down:before{content:"\f088"}
@@ -737,9 +764,9 @@ label.error {
 		.fa-angle-up:before{content:"\f106"}
 		.fa-angle-down:before{content:"\f107"}
 		.fa-desktop:before{content:"\f108"}
-		.fa-laptop:before{content:"\f109"}
+		.fa-laptop:before{content:"\f109" ; color:#B0B0B0  }
 		.fa-tablet:before{content:"\f10a"}
-		.fa-mobile-phone:before,.fa-mobile:before{content:"\f10b"}
+		.fa-mobile-phone:before,.fa-mobile:before{content:"\f10b" ; color:#B0B0B0 }
 		.fa-circle-o:before{content:"\f10c"}
 		.fa-quote-left:before{content:"\f10d"}
 		.fa-quote-right:before{content:"\f10e"}
@@ -913,7 +940,7 @@ label.error {
 
 		.wrapper-style4 h1, 
 		.wrapper-style4 h2, 
-		.wrapper-style4 h3, 
+		.wrapper-style4 nav, 
 		.wrapper-style4 h4, 
 		.wrapper-style4 h5, 
 		.wrapper-style4 h6
