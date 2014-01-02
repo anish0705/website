@@ -34,6 +34,6 @@ public partial class website_Default : System.Web.UI.Page
         };
         
         client.Send(FromAddress, "the-startup@live.com", subject, mail_message);
-        Response.Redirect("/website/index.html");
+        Response.Redirect("index.html");
     }
 }

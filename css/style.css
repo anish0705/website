@@ -1,6 +1,10 @@
 ﻿@charset 'UTF-8';
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@font-face { font-family: Samarkan;
+src: url("http://www.syrel.org/fonts/SAMARKA0.eot"); 
+}
+@font-face {font-family:"Redressed";src:url("font/Redressed.eot?") format("eot"),url("font/Redressed.woff") format("woff"),url("font/Redressed.ttf") format("truetype"),url("font/Redressed.svg#Redressed") format("svg");font-weight:normal;font-style:normal;}
 
 /*
 	Miniport 2.5 by HTML5 UP
@@ -33,9 +37,19 @@ title {
 }
 
 h1{ 
-   font-family: 'Alex Brush'; 
-   font-weight: normal; 
+   font-family: 'Samarkan'; 
+   
    font-style: normal; 
+   font-size:70px;
+}
+
+h3{
+	font-family: 'Papyrus';
+}
+
+#aboutus
+{
+	font-family: 'Redressed';
 }
 
 	*
@@ -233,6 +247,7 @@ h1{
 		.image img
 		{
 			display: block;
+
 			width: 100%;
 		}
 
@@ -240,6 +255,7 @@ h1{
 	{
 		display: block;
 		width: 100%;
+		height: 100%;
 		margin: 0 0 2em 0;
 	}
 	
@@ -924,7 +940,7 @@ h1{
 
 		.wrapper-style4 h1, 
 		.wrapper-style4 h2, 
-		.wrapper-style4 h3, 
+		.wrapper-style4 nav, 
 		.wrapper-style4 h4, 
 		.wrapper-style4 h5, 
 		.wrapper-style4 h6
