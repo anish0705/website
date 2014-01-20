@@ -160,52 +160,54 @@
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="#portfolio" class="image image-full"><img src="images/android2.png" alt="" height="257px" /></a>
-									<h4 style="font-size: 20px"><a href="#portfolio">Assign Me!</a><br/>(Coming Soon)</h4>
-									<p><font color="#2C3539">A utility Android app to prioritize your tasks and take the lead by staying ahead of deadlines.</font></p>
+									<a href="https://play.google.com/store/apps/details?id=com.thestartup" class="image image-full" ><img src="images/sush&nami.jpg" alt="" height="257px" width="145px" /></a>
+									<h4 style="font-size: 20px"><a href="https://play.google.com/store/apps/details?id=com.thestartup">Wedding App</a></h4>
+									<p>The android app provides details of the wedding events,<br/> venue and cordially invites you<br /> to their wedding.</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style1">
-									<a href="#portfolio" class="image image-full"><img src="images/cyberlaw.jpg" alt="" height="257px" /></a>
-									<h4 style="font-size: 20px"><a href="#portfolio">Android app for CLKC</a><br>(Coming Soon)</h4>
+									<a href="http://cyberlawsknowledgece.wix.com/clkc" class="image image-full"><img src="images/cyberlaw.jpg" alt="" height="257px" /></a>
+									<h4 style="font-size: 20px"><a href="#http://cyberlawsknowledgece.wix.com/clkc">Android app for CLKC</a><br>(In progress)</h4>
 
 									<p><font color="#2C3539">Establishing mobile presence <br> for <br/> Cyber Law Knowledge Centre.</font></p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="#portfolio" class="image image-full"><img src="images/paint2.jpg" alt="" height="257px" width="145px"/></a>
+									<a href="http://devindustrialcoatings.com/" class="image image-full"><img src="images/paint2.jpg" alt="" height="257px" width="145px"/></a>
 
-									<h4 style="font-size: 20px"><a href="#portfolio">ERP System</a><br/>(Coming Soon)</h4>
+									<h4 style="font-size: 20px"><a href="http://devindustrialcoatings.com/">Inventory Mng. System</a><br/>(In progress)</h4>
 									<p><font color="#2C3539">A customized software tailored to the needs of Dev Industrial Coatings, a </br> Hi-tech Industrial Paints manufacturer.</font></p>
 								</article>
 							</div>
 						</div>
-			<!--		<div class="row">
+					<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="https://www.facebook.com/groups/indiaanimalforum/" class="image image-full"><img src="images/iaf.jpg" alt="" height="257px" width="145px" /></a>
+									<h4 style="font-size: 20px"><a href="https://www.facebook.com/groups/indiaanimalforum/">Indian Animal Forum Website</a><br />(In progress)</h4>
+									<p>Website that assists in animal welfare promoting adoptions and spreading awareness about animal abuse and laws related to the same.</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="http://bpplchems.com" class="image image-full"><img src="images/bppl.jpeg" alt=""  height="257px" width="145px"/></a>
+									<h4 style="font-size: 20px"><a href="http://bpplchems.com">ERP System</a><br />(Coming Soon)</h4>
+									<p>An enterprise resource planning system<br /> to automate all operations of<br/> Bhagyanagar Polymers Pvt. Ltd.</p>
 								</article>
 							</div>
-							<div class="4u">
+
+                            <div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#portfolio" class="image image-full"><img src="images/android2.png" alt="" height="257px" /></a>
+									<h4 style="font-size: 20px"><a href="#portfolio">Assign Me!</a><br/>(Coming Soon)</h4>
+									<p><font color="#2C3539">A utility Android app to prioritize your tasks<br /> and take the lead by staying ahead of deadlines.</font></p>
 								</article>
 							</div>
+							
 						</div>
-					</div> -->
+					</div> 
 					<footer>
 						<p></p>
 					</footer>
