@@ -305,7 +305,7 @@
 						</ul>
 					-->
 						<p>The StartUp<br/>
-						A subsidiary of Hindoverseas Pvt. Ltd.</p>
+						Associate Hind Overseas (P) Ltd.</p>
 					</footer>
 				</article>
 			</div>
