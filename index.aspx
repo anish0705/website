@@ -1,9 +1,7 @@
-﻿<!DOCTYPE HTML>
-<!--
-	Miniport 2.5 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" EnableViewStateMac="false" %>
+
+<!DOCTYPE html>
+
 <html>
 	<head>
 
@@ -19,38 +17,38 @@
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
         <script>
-  
-    $(document).ready(function(){
 
-        $('#contact-form').validate(
-        {
-            rules: {
-                name: {
-                    minlength: 2,
-                    required: true
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                message: {
-                    minlength: 2,
-                    required: true
-                },
-                subject:{
-                    required: true
-                }
-            },
-            highlight: function(element) {
-                $(element).closest('.control-group').removeClass('success').addClass('error');
-            },
-            success: function(element) {
-             //   element
-              //  .text('OK!').addClass('valid')
-               // .closest('.control-group').removeClass('error').addClass('success');
-            }
-        });
-    }); // end document.ready
+            $(document).ready(function () {
+
+                $('#contactform').validate(
+                {
+                    rules: {
+                        name: {
+                            minlength: 2,
+                            required: true
+                        },
+                        email: {
+                            required: true,
+                            email: true
+                        },
+                        message: {
+                            minlength: 2,
+                            required: true
+                        },
+                        subject: {
+                            required: true
+                        }
+                    },
+                    highlight: function (element) {
+                        $(element).closest('.control-group').removeClass('success').addClass('error');
+                    },
+                    success: function (element) {
+                        //   element
+                        //  .text('OK!').addClass('valid')
+                        // .closest('.control-group').removeClass('error').addClass('success');
+                    }
+                });
+            }); // end document.ready
     </script>
 
         
@@ -240,36 +238,36 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" id="contact-form" action="http://the-startup.org/Default.aspx">
+                                <form method="post" runat="server" id="contactform" action="Mail.aspx">
                                     <fieldset>
-									<div>
-										<div class="row half">
-											<div class="6u">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<a href="#" class="button form-button-submit">Send Message</a>
+                                        <div>
+                                            <div class="row half">
+                                                <div class="6u">
+                                                    <input type="text" name="name" id="name" placeholder="Name" />
+                                                </div>
+                                                <div class="6u">
+                                                    <input type="text" name="email" id="email" placeholder="Email" />
+                                                </div>
+                                            </div>
+                                            <div class="row half">
+                                                <div class="12u">
+                                                    <input type="text" name="subject" id="subject" placeholder="Subject" />
+                                                </div>
+                                            </div>
+                                            <div class="row half">
+                                                <div class="12u">
+                                                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="12u">
+                                                    <a href="#" class="button form-button-submit">Send Message</a>
 
-											</div>
-										</div>
-									</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </fieldset>
-								</form>
+                                </form>
 							</div>
 						</div>
 						<div class="row">
@@ -307,7 +305,7 @@
 						</ul>
 					-->
 						<p>The StartUp<br/>
-						A subsidiary of Hindoverseas Pvt. Ltd.</p>
+						Associate Hind Overseas (P) Ltd.</p>
 					</footer>
 				</article>
 			</div>
